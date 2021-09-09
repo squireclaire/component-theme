@@ -1,0 +1,55 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files\nodejs\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\PowerShell\7;C:\Users\wesley.sangster\php-compilers\php7.1.3_x64ts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\Git\cmd;C:\Program Files\dotnet\;C:\Program Files (x86)\Microsoft SQL Server\150\DTS\Binn\;C:\Program Files\Azure Data Studio\bin;C:\Users\wesley.sangster\php-compilers\php7.4.12_x64ts;C:\ProgramData\ComposerSetup\bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Program Files\Amazon\SessionManagerPlugin\bin\;C:\Users\wesley.sangster\php-compilers\php7.0.16_x64ts;C:\Users\wesley.sangster\php-compilers\php5.6.39_x64ts;C:\Program Files\Redis;C:\Users\wesley.sangster\Apps\Oracle_Instant_Client_12_2;C:\Users\wesley.sangster\Apps\net-snmp-5.9\mibs;C:\Program Files\PowerShell\7\;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;%NVM_HOME%;%NVM_SYMLINK%;C:\ProgramData\chocolatey\bin;C:\Users\claire.squire\AppData\Local\Programs\Python\Python39\Scripts\;C:\Users\claire.squire\AppData\Local\Programs\Python\Python39\;C:\Users\claire.squire\AppData\Local\Microsoft\WindowsApps;C:\Users\claire.squire\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\claire.squire\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\tools\dart-sdk\bin;C:\Users\claire.squire\AppData\Roaming\Pub\Cache\bin;
+
+Yarn version: 
+  1.22.10
+
+Node version: 
+  14.17.3
+
+Platform: 
+  win32 x64
+
+Trace: 
+  SyntaxError: C:\Users\claire.squire\Documents\component-theme\package.json: Unexpected token } in JSON at position 220
+      at JSON.parse (<anonymous>)
+      at C:\Users\claire.squire\AppData\Roaming\nvm\v14.17.3\node_modules\yarn\lib\cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (C:\Users\claire.squire\AppData\Roaming\nvm\v14.17.3\node_modules\yarn\lib\cli.js:310:30)
+      at C:\Users\claire.squire\AppData\Roaming\nvm\v14.17.3\node_modules\yarn\lib\cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "component-theme",
+    "version": "1.0.0",
+    "main": "src/index.scss",
+    "repository": "https://github.com/squireclaire/component-theme.git",
+    "license": "MIT",
+    "devDependencies": {
+      "sass": "^1.39.0",
+    },
+    "scripts": {
+      "sass": "sass --style=compressed src/index.scss:public/style.css"
+    },
+    "browserslist": {
+      "production": [
+        ">0.2%",
+        "not dead",
+        "not op_mini all"
+      ],
+      "development": [
+        "last 1 chrome version",
+        "last 1 firefox version",
+        "last 1 safari version"
+      ]
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

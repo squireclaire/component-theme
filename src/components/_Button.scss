@@ -1,0 +1,23 @@
+.c-button {
+    min-width: 250px;
+    padding: 8px 16px;
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    text-transform: uppercase;
+    border-radius: 0.5em;
+    outline: none;
+}
+
+.c-button__icon {
+    color: white !important;
+    margin-right: 8px;
+}
+
+.c-button__label {
+    font-weight: bold;
+}
+
+.c-button--disabled {
+    cursor: not-allowed;
+}

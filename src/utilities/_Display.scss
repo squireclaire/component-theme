@@ -1,0 +1,30 @@
+.u-display-block { display: block !important; }
+.u-display-flex { display: flex !important; }
+.u-display-inline-flex { display: inline-flex !important; }
+.u-display-inline { display: inline !important; }
+.u-display-inline-block { display: inline-block !important; }
+
+//  INFO: uncomment as implemented
+// .u-flex-col { flex-flow: column wrap !important; }
+// .u-flex-col-nowrap { flex-flow: column nowrap !important; }
+// .u-flex-col-rev { flex-flow: column-reverse wrap !important; }
+// .u-flex-col-rev-nowrap { flex-flow: column-reverse nowrap !important; }
+// .u-flex-row { flex-flow: row wrap !important; }
+// .u-flex-row-nowrap { flex-flow: row nowrap !important; }
+// .u-flex-row-rev { flex-flow: row-reverse wrap !important; }
+// .u-flex-row-rev-nowrap { flex-flow: row-reverse nowrap !important; }
+
+
+/* hide content from view and from screenreaders */
+.u-hide { display: none !important; }
+
+/* hide content from view, but show to screenreaders  */
+.u-hide-visually {
+   position: absolute !important;
+   top: -10000px !important;
+   left: -10000px !important;
+   width:  0px !important;
+   height: 0px !important;
+   overflow: hidden !important;
+   clip: rect(1px, 1px, 1px, 1px) !important;
+}

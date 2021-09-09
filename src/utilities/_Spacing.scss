@@ -1,0 +1,13 @@
+@use "../settings/index.scss";
+
+// @each $sym, $size in $base-spacing-unit {
+//     @each $side, $abbv in $bm-abbrv {
+//         .u-m#{$abbv}#{$sym} {
+//             margin#{$side}: $size;
+//         }
+        
+//         .u-p#{$abbv}#{$sym} {
+//             padding#{$side}: $size;
+//         }
+//     }
+// }
